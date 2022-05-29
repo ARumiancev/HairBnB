@@ -1,7 +1,7 @@
 import { Sitter } from '../../../types';
 
 export type SittersState = {
-  sculptures: Sitter[],
+  sitters: Sitter[],
   loading: boolean,
   error: string | null,
 };

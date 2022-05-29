@@ -1,5 +1,8 @@
 export type CreateSitter = {
   name: string,
   city: string,
-  about: string
+  email: string,
+  phone: number,
+  about: string,
+  img: string
 };

@@ -1,4 +1,4 @@
-# Demo E-shop
+# Demo Pet sitting service connection site
 
 ## System requirements
   * Node.js

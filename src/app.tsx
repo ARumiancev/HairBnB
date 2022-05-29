@@ -5,7 +5,6 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/home-page';
 import LoginPage from './pages/login-page';
 import RegisterPage from './pages/register-page/index';
-import ProfilePage from './pages/profile-page';
 
 import VisitorLayout from './layouts/visitor-layout';
 import RequireAuth from './routing/require-auth';
@@ -35,14 +34,7 @@ const App: React.FC = () => (
             </RequireVisitor>
           )}
         />
-        <Route
-          path="profile"
-          element={(
-            <RequireAuth>
-              <ProfilePage />
-            </RequireAuth>
-          )}
-        />
+
         <Route
           path="createNewSitter"
           element={(

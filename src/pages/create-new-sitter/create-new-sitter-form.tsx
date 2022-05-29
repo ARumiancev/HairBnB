@@ -156,7 +156,7 @@ const CreateNewSitterForm: React.FC = () => {
         <TextField
           name="img"
           type="text"
-          label="Image"
+          label="Image URL"
           value={values.img}
           onChange={handleChange}
           onBlur={handleBlur}

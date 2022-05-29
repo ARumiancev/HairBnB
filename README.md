@@ -1,4 +1,5 @@
 # Demo Pet sitting service connection site
+The homepage displays posts of people who are offering their pet sitting services. If the person is logged in, he/ she can create a new post (offer their service). The newly created post will appear on the homepage. 
 
 ## System requirements
   * Node.js

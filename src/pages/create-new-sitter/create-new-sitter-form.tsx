@@ -118,6 +118,24 @@ const CreateNewSitterForm: React.FC = () => {
         </Typography>
 
         <TextField
+          name="email"
+          type="text"
+          label="Email"
+          value={values.email}
+          onChange={handleChange}
+          onBlur={handleBlur}
+          variant="outlined"
+          fullWidth
+          sx={{ mt: 3 }}
+        />
+        <Typography sx={{
+          fontSize: 12, color: 'red', mt: 1, ml: 1,
+        }}
+        >
+          {touched.email && errors.email}
+        </Typography>
+
+        <TextField
           name="about"
           type="text"
           label="About"
@@ -133,6 +151,24 @@ const CreateNewSitterForm: React.FC = () => {
         }}
         >
           {touched.about && errors.about}
+        </Typography>
+
+        <TextField
+          name="img"
+          type="text"
+          label="Image"
+          value={values.img}
+          onChange={handleChange}
+          onBlur={handleBlur}
+          variant="outlined"
+          fullWidth
+          sx={{ mt: 3 }}
+        />
+        <Typography sx={{
+          fontSize: 12, color: 'red', mt: 1, ml: 1,
+        }}
+        >
+          {touched.img && errors.img}
         </Typography>
 
         <Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 3 }}>

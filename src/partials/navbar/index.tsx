@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
   const loggedIn = useRootSelector(selectLoggedIn);
 
   return (
-    <AppBar position="sticky" sx={{ bgcolor: 'grey.900' }}>
+    <AppBar position="sticky" sx={{ bgcolor: '#032169' }}>
       <Container>
         <Toolbar sx={{
           px: { xs: 0, sm: 0 },

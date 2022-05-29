@@ -51,7 +51,11 @@ const NavbarAuthMenu: React.FC = () => {
         }}
         onClick={handleMenuOpen}
       >
-        <Typography sx={{ mr: 2, userSelect: 'none' }}>{user?.email}</Typography>
+        <Typography sx={{ mr: 2, userSelect: 'none' }}>
+          Welcome back,
+          {' '}
+          {user?.name}
+        </Typography>
         {(userInitials || user?.img) && <Avatar src={user?.img}>{userInitials}</Avatar>}
 
       </Box>

@@ -3,7 +3,6 @@ export type Sitter = {
   name: string,
   city: string,
   email: string,
-  phone: number,
   about: string,
   img: string
 };

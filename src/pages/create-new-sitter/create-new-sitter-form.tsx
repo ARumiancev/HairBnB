@@ -15,7 +15,9 @@ type CreateConfig = FormikConfig<CreateSitter>;
 const initialValues: CreateSitter = {
   name: '',
   city: '',
+  email: '',
   about: '',
+  img: '',
 };
 
 const validationSchema: Yup.SchemaOf<CreateSitter> = Yup.object({
@@ -23,7 +25,12 @@ const validationSchema: Yup.SchemaOf<CreateSitter> = Yup.object({
     .required('This field is Required'),
   city: Yup.string()
     .required('This field is Required'),
+  email: Yup.string()
+    .required('This field is Required')
+    .email('Enter a valid email'),
   about: Yup.string()
+    .required('This field is Required'),
+  img: Yup.string()
     .required('This field is Required'),
 });
 
@@ -32,10 +39,10 @@ const CreateNewSitterForm: React.FC = () => {
   const dispatch = useRootDispatch();
 
   const handleSubmitCreateSitter: CreateConfig['onSubmit'] = ({
-    name, city, about,
+    name, city, email, about, img,
   }) => {
     dispatch(createNewSitterAction({
-      name, city, about,
+      name, city, email, about, img,
     }));
     navigate('/');
   };

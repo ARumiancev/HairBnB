@@ -8,10 +8,10 @@ const fetchItems = async (): Promise<Sitter[]> => {
 };
 
 const createNewItem = async ({
-  name, city, about,
+  name, city, email, about, img,
 }: CreateSitter) => {
   const { data } = await ApiService.post<Sitter>('/sitters/', {
-    name, city, about,
+    name, city, email, about, img,
   });
   return data;
 };

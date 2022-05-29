@@ -37,10 +37,10 @@ export const createfetchSittersAction = async (dispatch: Dispatch<AppAction>) =>
 };
 
 export const createNewSitterAction = ({
-  name, city, about,
+  name, city, email, about, img,
 }: CreateSitter) => async (dispatch: Dispatch<AppAction>): Promise<void> => {
   await SitterService.createNewItem({
-    name, city, about,
+    name, city, email, about, img,
   });
   const sitterPosts = await SitterService.fetchItems();
   dispatch(createFecthSittersSuccessAction(sitterPosts));

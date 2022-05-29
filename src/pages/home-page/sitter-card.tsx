@@ -15,7 +15,7 @@ const SitterCard: React.FC<SitterCardProps> = ({
     sx={{
       display: 'flex',
       flexDirection: 'column',
-      height: 307,
+      height: 407,
       width: 300,
       textAlign: 'center',
       pb: 1,
@@ -27,7 +27,7 @@ const SitterCard: React.FC<SitterCardProps> = ({
           <Box
             component="img"
             src={img}
-            sx={{ height: 200, width: 300 }}
+            sx={{ height: 300, width: 300 }}
           />
         )}
         <Typography gutterBottom variant="h6">

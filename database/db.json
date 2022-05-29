@@ -2,77 +2,27 @@
   "users": [
     {
       "id": "111",
-      "name": "Serbentautas",
-      "surname": "Bordiūras",
+      "name": "Mike",
+      "surname": "Hawk",
       "email": "user1@gmail.com",
       "password": "Vilnius123",
-      "img": "https://avatars.githubusercontent.com/u/5399488?s=400&v=4"
+      "img": "https://i.pinimg.com/280x280_RS/83/23/73/832373cf15d4ce7596803f442451d17d.jpg"
     },
     {
       "id": "112",
-      "name": "Jovalas",
-      "surname": "Johanas",
+      "name": "Jenny",
+      "surname": "Telia",
       "email": "user2@gmail.com",
       "password": "Vilnius123",
-      "img": "https://media.istockphoto.com/photos/confused-nerd-guy-picture-id168250344?k=20&m=168250344&s=612x612&w=0&h=V7seKY4kuNv1Uym-2J3trEo_ZOOVMCQAR3eqlBnFNVo="
+      "img": "https://s1.15min.lt/images/photos/2015/02/20/original/sasha-grey-54e76f28440cc.jpg"
     },
     {
       "id": "113",
-      "name": "Volonija",
-      "surname": "Kūgelė",
+      "name": "Shrek",
+      "surname": "Shrekiauskas",
       "email": "user3@gmail.com",
       "password": "Vilnius123",
-      "img": "https://media.istockphoto.com/photos/geeky-girl-picture-id536217043?k=20&m=536217043&s=612x612&w=0&h=8WxDgS_PY_PO5Iu8xsjNKSuFfpwtoyI-08uLsFxOiZg="
-    },
-    {
-      "email": "jenny.telia@gmail.com",
-      "password": "Vilnius123",
-      "id": "BkpJlQJ"
-    }
-  ],
-  "shopItems": [
-    {
-      "id": "1",
-      "images": [
-        "https://www.ubuy.vn/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNTFhcUNwa2xJSUwuX0FDX1NMMTAwMF8uanBn.jpg"
-      ],
-      "price": 199.99,
-      "categories": [
-        "artilery",
-        "hobies"
-      ],
-      "amount": 0,
-      "additionalProps": {
-        "arrowCount": "27",
-        "distance": "200m"
-      }
-    },
-    {
-      "id": "2",
-      "images": [
-        "https://www.ubuy.com/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjFINEpETHJHREwuX0FDX1NMMTAwMF8uanBn.jpg"
-      ],
-      "price": 39.99,
-      "categories": [
-        "artilery",
-        "hobies"
-      ],
-      "amount": 24
-    },
-    {
-      "id": "3",
-      "images": [
-        "https://i0.wp.com/sabersmith.com/wp-content/uploads/2020/07/Hand-Half-Gold-Black-on-Green-with-Wire.jpg?fit=800%2C1200&ssl=1"
-      ],
-      "price": 479.99,
-      "categories": [
-        "close-combat",
-        "hobies"
-      ],
-      "amount": 4,
-      "additionalProps": {
-        "length": "1.2m"
-      }
+      "img": "https://pbs.twimg.com/profile_images/1397975001563860992/7L53u_x9_400x400.jpg"
     }
   ],
   "sitters": [
@@ -102,11 +52,11 @@
     },
     {
       "id": "sitter004",
-      "name": "Bart & Ashton",
-      "city": "London, United Kingdom",
-      "email": "bash@gmail.com",
-      "about": "We are a professional, easy-going couple in our thirties (been together for over 15 years), completely location-independent (we work online), both non-smokers, vegans/vegetarians and have no dependents. Due to the nature of our wandering lifestyle (we travel a lot), we cherish every moment at the company of animals that we get the opportunity to stay with. ",
-      "img": "https://res.cloudinary.com/trustedhousesitters/image/upload/t_original_ratio_big,f_auto/v1/remote_media/media/photo/20/6fe8f645fb460cb9b78cb498fa9333.jpg"
+      "name": "Sharon",
+      "city": "Canaan Center, NH, US",
+      "email": "sharonjust@one.lt",
+      "about": "Friendly, married female, traveling solo; nonsmoker, non-drinker; who enjoys looking after cats, dogs, and some other small animals; and keeping a tidy home.",
+      "img": "https://res.cloudinary.com/trustedhousesitters/image/upload/t_original_ratio_big,f_auto/v1/remote_media/media/photo/5a/faece48d9c56f179844f8d1841260f0a1f1b60.jpeg"
     },
     {
       "id": "sitter005",

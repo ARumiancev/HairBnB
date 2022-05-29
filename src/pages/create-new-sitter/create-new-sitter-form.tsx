@@ -1,5 +1,5 @@
 import {
-  Container, Box, TextField, Typography,
+  Container, Box, TextField, Typography, Paper,
 } from '@mui/material';
 import { useFormik, FormikConfig } from 'formik';
 import React from 'react';
@@ -63,7 +63,7 @@ const CreateNewSitterForm: React.FC = () => {
         justifyContent: 'center',
       }}
     >
-      <Box
+      <Paper
         component="form"
         onSubmit={handleSubmit}
         sx={{
@@ -172,7 +172,7 @@ const CreateNewSitterForm: React.FC = () => {
         </Typography>
 
         <Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 3 }}>
-          <ButtonScale type="submit">Create</ButtonScale>
+          <ButtonScale color="secondary" type="submit">Create</ButtonScale>
           <ButtonScale
             type="button"
             onClick={() => navigate('/')}
@@ -180,7 +180,7 @@ const CreateNewSitterForm: React.FC = () => {
             Back
           </ButtonScale>
         </Box>
-      </Box>
+      </Paper>
     </Container>
   );
 };
